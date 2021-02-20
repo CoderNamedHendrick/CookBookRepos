@@ -1,7 +1,11 @@
 <resources>
+    <string name="hello">Hello World, BackupManager</string>
     <string name="app_name">BackupManagerExample</string>
-    <string name="filling_text" />
-    <string name="bacon_label" />
-    <string name="pstrami_label" />
-    <string name="hummus_label" />
+    <string name="filling_text">Choose Settings for your application:</string>
+    <string name="bacon_label">Sound On</string>
+    <string name="pstrami_label">Vibration</string>
+    <string name="hummus_label">Backlight On</string>
+    <string name="extras_text">Extras:</string>
+    <string name="mayo_text">Use Orientation</string>
+    <string name="tomato_text">Use Camera?</string>
 </resources>

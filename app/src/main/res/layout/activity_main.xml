@@ -44,9 +44,29 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/hummus"
                     android:text="@string/hummus_label"/>
-
-
             </RadioGroup>
+
+            <TextView
+                android:text="@string/extras_text"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mayo"
+                android:text="@string/mayo_text"
+                android:layout_marginLeft="20dp"/>
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tomato"
+                android:text="@string/tomato_text"
+                android:layout_marginLeft="20dp"/>
         </LinearLayout>
     </ScrollView>
 
