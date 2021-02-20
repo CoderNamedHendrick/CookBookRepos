@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BackupManagerExample</string>
+    <string name="filling_text" />
+    <string name="bacon_label" />
+    <string name="pstrami_label" />
+    <string name="hummus_label" />
+</resources>
