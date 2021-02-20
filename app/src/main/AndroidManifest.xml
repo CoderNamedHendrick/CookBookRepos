@@ -9,7 +9,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:backupAgent="ExampleAgent"
-        android:theme="@style/Theme.BackupManagerExample">
+        android:theme="@style/Theme.BackupManagerExample"><!--Here you specify the backupAgent-->
 
         <!-- Some backup transports may require API keys or other metadata -->
         <meta-data android:name="com.google.android.backup.api_key"
